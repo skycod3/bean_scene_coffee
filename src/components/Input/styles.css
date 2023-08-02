@@ -1,0 +1,5 @@
+:where(.form-control) {
+  min-height: 66px;
+
+  @apply rounded bg-white py-4 pl-6 border-none placeholder:text-black/50;
+}

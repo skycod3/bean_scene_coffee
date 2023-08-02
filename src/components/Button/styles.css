@@ -1,0 +1,16 @@
+.button {
+  --tw-shadow: 0px 6px 12px theme(colors.accent-400/22%);
+
+  @apply inline-block border border-solid text-base capitalize font-bold font-sans rounded-full px-6 py-3;
+  @apply cursor-pointer transition-colors;
+
+  box-shadow: var(--tw-shadow);
+
+  &[data-theme="primary"] {
+    @apply bg-accent-400 border-accent-400 text-[#1E1E1E];
+
+    &:is(:hover, :focus-within) {
+      @apply bg-accent-200;
+    }
+  }
+}

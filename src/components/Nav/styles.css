@@ -1,0 +1,43 @@
+.NavigationMenuRoot {
+  --animation-timing: 200ms ease;
+
+  &[data-open="true"] {
+    @apply fixed top-28 right-4 z-10 bg-neutral-800 py-4 px-8 rounded;
+  }
+}
+
+@media (max-width: theme(screens.sm)) {
+  .NavigationMenuRoot {
+    @apply max-h-[70vh] overflow-auto;
+  }
+}
+
+.NavigationMenuIndicator {
+  @apply flex items-end justify-center h-[10px] top-full overflow-hidden z-[1];
+
+  &[data-state="visible"] {
+    animation: fadeIn var(--animation-timing);
+  }
+
+  &[data-state="hidden"] {
+    animation: fadeOut var(--animation-timing);
+  }
+}
+
+.NavigationMenuViewport {
+  @apply relative w-full rounded bg-white shadow-md overflow-hidden;
+
+  transform-origin: top center;
+  margin-top: 10px;
+  height: var(--radix-navigation-menu-viewport-height);
+
+  @apply lg:w-[var(--radix-navigation-menu-viewport-width)];
+
+  &[data-state="open"] {
+    animation: scaleIn var(--animation-timing);
+  }
+
+  &[data-state="closed"] {
+    animation: scaleOut var(--animation-timing);
+  }
+}
