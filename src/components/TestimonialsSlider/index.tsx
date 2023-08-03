@@ -3,10 +3,10 @@ import Swiper from "swiper";
 import { Navigation, A11y, Keyboard } from "swiper/modules";
 import { SwiperOptions } from "swiper/types";
 
-import "../../../node_modules/swiper/swiper.css";
-import "../../../node_modules/swiper/modules/navigation.css";
-import "../../../node_modules/swiper/modules/a11y.css";
-import "../../../node_modules/swiper/modules/keyboard.css";
+import "@modules/swiper/swiper.css";
+import "@modules/swiper/modules/navigation.css";
+import "@modules/swiper/modules/a11y.css";
+import "@modules/swiper/modules/keyboard.css";
 
 import "./styles.css";
 import { CustomStyles } from "../../sections/Header";

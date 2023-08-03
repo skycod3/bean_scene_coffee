@@ -3,7 +3,7 @@ import * as Accordion from "@radix-ui/react-accordion";
 
 import { CaretDown } from "@phosphor-icons/react";
 
-import { config } from "../../config/tpl.config";
+import { config } from "@config/tpl.config";
 
 import "./styles.css";
 

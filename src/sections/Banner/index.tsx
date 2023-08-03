@@ -1,5 +1,5 @@
-import Button from "../../components/Button";
-import { config } from "../../config/tpl.config";
+import Button from "@components/Button";
+import { config } from "@config/tpl.config";
 
 const { banner } = config;
 

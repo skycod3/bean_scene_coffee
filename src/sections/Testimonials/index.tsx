@@ -1,10 +1,10 @@
-import Slider from "../../components/TestimonialsSlider";
-import Title from "../../components/Title";
+import Slider from "@components/TestimonialsSlider";
+import Title from "@components/Title";
 
-import { config } from "../../config/tpl.config";
+import { config } from "@config/tpl.config";
 
-import ImgCoffeeDecorative from "../../assets/coffee-decorative.png";
-import ImgCoffeeDecorative2 from "../../assets/coffee-decorative-2.png";
+import ImgCoffeeDecorative from "@assets/coffee-decorative.png";
+import ImgCoffeeDecorative2 from "@assets/coffee-decorative-2.png";
 
 const { testimonials } = config;
 

@@ -1,18 +1,18 @@
-import ImgCoffee1 from "../assets/coffee-1.png";
-import ImgCoffee2 from "../assets/coffee-2.png";
-import ImgCoffee3 from "../assets/coffee-3.png";
-import ImgCoffee4 from "../assets/coffee-4.png";
+import ImgCoffee1 from "@assets/coffee-1.png";
+import ImgCoffee2 from "@assets/coffee-2.png";
+import ImgCoffee3 from "@assets/coffee-3.png";
+import ImgCoffee4 from "@assets/coffee-4.png";
 
 import { FacebookLogo, InstagramLogo, YoutubeLogo, TwitterLogo } from "@phosphor-icons/react";
 
-import IconCoffeeBeans from "../assets/coffee-beans.svg";
-import IconBadge from "../assets/badge.svg";
-import IconCoffeeCup from "../assets/coffee-cup.svg";
-import IconBestPrice from "../assets/best-price.svg";
+import IconCoffeeBeans from "@assets/coffee-beans.svg";
+import IconBadge from "@assets/badge.svg";
+import IconCoffeeCup from "@assets/coffee-cup.svg";
+import IconBestPrice from "@assets/best-price.svg";
 
-import ImgBanner from "../assets/banner.png";
+import ImgBanner from "@assets/banner.png";
 
-import ImgUser from "../assets/user-feedback.png";
+import ImgUser from "@assets/user-feedback.png";
 
 const coffees = [
   { id: 1, img: ImgCoffee1, title: "Cappuccino", text: "Coffee 50% | Milk 50%", price: "$8.50" },

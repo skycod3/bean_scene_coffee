@@ -2,12 +2,12 @@ import { useState } from "react";
 import { List, NotePencil, SignIn, X } from "@phosphor-icons/react";
 import { screens } from "tailwindcss/defaultTheme";
 
-import Nav from "../../components/Nav";
-import Button from "../../components/Button";
+import Nav from "@components/Nav";
+import Button from "@components/Button";
 
-import Logo from "../../assets/logo.svg";
+import Logo from "@assets/logo.svg";
 
-import { useWindowSize } from "../../hooks/useWindowSize";
+import { useWindowSize } from "@hooks/useWindowSize";
 
 export interface CustomStyles extends React.CSSProperties {
   "--fluid-block-min"?: string;

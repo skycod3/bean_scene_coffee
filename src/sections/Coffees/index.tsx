@@ -1,9 +1,9 @@
-import Title from "../../components/Title";
-import Button from "../../components/Button";
+import Title from "@components/Title";
+import Button from "@components/Button";
 
-import { config } from "../../config/tpl.config";
+import { config } from "@config/tpl.config";
 
-import ImgCoffeeDecorative from "../../assets/coffee-decorative.png";
+import ImgCoffeeDecorative from "@assets/coffee-decorative.png";
 
 const { coffees } = config;
 

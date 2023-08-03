@@ -1,11 +1,11 @@
-import Button from "../../components/Button";
-import Title from "../../components/Title";
+import Button from "@components/Button";
+import Title from "@components/Title";
 
 import { CustomStyles } from "../Header";
 
-import ImgBgOrder from "../../assets/bg-order.png";
-import ImgCupCoffee from "../../assets/cup-coffee.png";
-import ImgCoffeeBeans from "../../assets/coffee-beans.png";
+import ImgBgOrder from "@assets/bg-order.png";
+import ImgCupCoffee from "@assets/cup-coffee.png";
+import ImgCoffeeBeans from "@assets/coffee-beans.png";
 
 export default function Order() {
   const customStyles: CustomStyles = {

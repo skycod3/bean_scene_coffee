@@ -1,8 +1,8 @@
-import ImgLogo from "../../assets/logo.svg";
-import ImgBgFooter from "../../assets/bg-footer.png";
-import ImgCupCoffeeDecorative from "../../assets/cup-coffee-decorative.png";
+import ImgLogo from "@assets/logo.svg";
+import ImgBgFooter from "@assets/bg-footer.png";
+import ImgCupCoffeeDecorative from "@assets/cup-coffee-decorative.png";
 
-import { config } from "../../config/tpl.config";
+import { config } from "@config/tpl.config";
 
 import { CustomStyles } from "../Header";
 
