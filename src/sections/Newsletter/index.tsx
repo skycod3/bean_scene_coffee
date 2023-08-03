@@ -4,10 +4,10 @@ import Input from "@components/Input";
 
 import ImgBgSubscribe from "@assets/bg-subscribe.png";
 
-import { CustomStyles } from "../Header";
+import { CustomProperties } from "../../@types";
 
 export default function Newsletter() {
-  const customBlockSize: CustomStyles = {
+  const customBlockSize: CustomProperties = {
     "--fluid-block-max": "5rem",
     "--fluid-block-base": "10vw",
   };

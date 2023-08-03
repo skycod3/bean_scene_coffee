@@ -9,16 +9,10 @@ import Logo from "@assets/logo.svg";
 
 import { useWindowSize } from "@hooks/useWindowSize";
 
-export interface CustomStyles extends React.CSSProperties {
-  "--fluid-block-min"?: string;
-  "--fluid-block-base"?: string;
-  "--fluid-block-max"?: string;
-  "--growth-factor"?: string;
-  "--flow-space"?: string;
-}
+import { CustomProperties } from "../../@types";
 
 export default function Header() {
-  const customStyles: CustomStyles = {
+  const customStyles: CustomProperties = {
     "--fluid-block-max": "1.31rem",
   };
 

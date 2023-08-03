@@ -9,7 +9,7 @@ import "@modules/swiper/modules/a11y.css";
 import "@modules/swiper/modules/keyboard.css";
 
 import "./styles.css";
-import { CustomStyles } from "../../sections/Header";
+import { CustomProperties } from "../../@types";
 
 type Testimonial = {
   id: number;
@@ -43,7 +43,7 @@ export default function Slider({ testimonials }: SliderProps) {
     new Swiper(container, options);
   }, []);
 
-  const customFlowSpace: CustomStyles = {
+  const customFlowSpace: CustomProperties = {
     "--flow-space": "0.25em",
   };
 

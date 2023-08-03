@@ -4,16 +4,16 @@ import ImgCupCoffeeDecorative from "@assets/cup-coffee-decorative.png";
 
 import { config } from "@config/tpl.config";
 
-import { CustomStyles } from "../Header";
+import { CustomProperties } from "../../@types";
 
 const { contact, about } = config;
 
 export default function Footer() {
-  const customFluidSize: CustomStyles = {
+  const customFluidSize: CustomProperties = {
     "--fluid-block-max": "4rem",
   };
 
-  const customFlow: CustomStyles = {
+  const customFlow: CustomProperties = {
     "--flow-space": "2.25em",
   };
 

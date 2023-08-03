@@ -5,12 +5,12 @@ import ImgCoffeeDecorative from "@assets/coffee-decorative.png";
 
 import { config } from "@config/tpl.config";
 
-import { CustomStyles } from "../Header";
+import { CustomProperties } from "../../@types";
 
 const { features } = config;
 
 export default function Features() {
-  const customStyles: CustomStyles = {
+  const customStyles: CustomProperties = {
     "--flow-space": "0.1em",
   };
 
